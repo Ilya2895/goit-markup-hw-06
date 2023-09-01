@@ -1,0 +1,367 @@
+/**----------------------------428px---------------------------*/
+
+@media screen and (min-width: 428px) {
+  .container {
+    max-width: 428px;
+  }
+
+  .hero-title {
+  }
+
+  .mob-address-tell {
+    font-size: 36px;
+  }
+
+  .header-mob-social-list {
+    gap: 56px;
+  }
+
+  .modal {
+    width: 392px;
+  }
+
+  .modal-check-text {
+    font-size: 12px;
+  }
+
+  .modal-check-link {
+    font-size: 12px;
+    margin-left: 5px;
+  }
+
+  .footer-input {
+    width: 398px;
+  }
+}
+
+/* .customers-item {
+  width: 190px;
+} */
+
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 767px;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  .modal {
+    width: 408px;
+    padding: 72px 24px 24px;
+  }
+
+  .header-menu-list {
+    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .header-address {
+    display: block;
+  }
+
+  .header-address-list {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .header-address-item {
+    width: 119px;
+    height: 14px;
+    flex-shrink: 0;
+  }
+
+  .menu-open-btn {
+    display: none;
+  }
+
+  .hero {
+    padding-left: 121px;
+    padding-right: 121px;
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/studio-baner-tab-1x.jpg);
+  }
+
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .hero {
+      background-image: linear-gradient(
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url(../images/studio-baner-tab-2x.jpg);
+    }
+  }
+
+  .hero-title {
+    font-size: 56px;
+    line-height: 1.07;
+
+    margin-bottom: 36px;
+  }
+
+  .customers-list {
+    gap: 72px 24px;
+  }
+  /**----------------------------ADVANTAGES---------------------------*/
+
+  .advantages-list {
+    gap: 72px 24px;
+  }
+
+  .advantages-item-top {
+    display: none;
+  }
+
+  .advantages-item {
+    width: calc((100% - 24px) / 2);
+  }
+
+  .advantages-item-title {
+    text-align: left;
+    width: 264px;
+  }
+
+  .advantages-item-text {
+  }
+
+  .doing {
+    display: none;
+  }
+  /**----------------------------TEAM---------------------------*/
+
+  .team .container,
+  .customers .container,
+  .footer .container {
+    width: 584px;
+  }
+
+  .team-img {
+    margin: 0 auto;
+  }
+
+  .team-list {
+    width: 100%;
+    padding: 0;
+    gap: 64px 24px;
+  }
+
+  .team-item {
+    width: calc((100% - 24px) / 2);
+  }
+
+  /**----------------------------FOOTER---------------------------*/
+
+  .footer-container {
+    margin: 0 auto;
+    display: flex;
+    align-items: baseline;
+  }
+
+  .footer-container-wrapt {
+  }
+
+  .fotter-link {
+    justify-content: left;
+  }
+
+  .container-social-link {
+    margin-left: 24px;
+  }
+
+  .media-title {
+    justify-content: left;
+    margin: 0;
+    margin-bottom: 16px;
+  }
+
+  .footer-subscri-title {
+    justify-content: left;
+  }
+
+  .footer-label {
+    margin-right: 24px;
+  }
+
+  .footer-subscri-form {
+    justify-content: left;
+  }
+
+  .footer-input {
+    width: 264px;
+    /* height: 40px; */
+  }
+
+  .footer-subscri-btn {
+    margin: 0;
+  }
+}
+
+/**---------------------------1158px----------------------------*/
+@media screen and (min-width: 1158px) {
+  .container {
+    max-width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+  }
+
+  .header-logo {
+    margin-right: 76px;
+  }
+
+  .header-address-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 40px;
+  }
+
+  .header-address-item {
+    width: 151px;
+    height: 24px;
+  }
+
+  .header-address-link {
+    color: var(--slate, #434455);
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    font-style: normal;
+    margin: 0;
+    padding-left: 0;
+    text-align: left;
+  }
+
+  .hero {
+    padding-top: 188px;
+    padding-bottom: 188px;
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/studio-baner-1x.jpg);
+  }
+
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .hero {
+      background-image: linear-gradient(
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url(../images/studio-baner-2x.jpg);
+    }
+  }
+
+  .hero-title {
+    font-size: 56px;
+    line-height: 1.07; /* 107.143% */
+    max-width: 496px;
+    margin: auto;
+    margin-bottom: 48px;
+  }
+
+  .advantages-item {
+    width: calc((100% - 72px) / 4);
+  }
+
+  .advantages-item-top {
+    width: 100%;
+    height: 112px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    background: var(--cloud, #f4f4fd);
+    margin-bottom: 8px;
+  }
+
+  .advantages-item-title {
+    color: var(--navyblue, #2e2f42);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2; /* 120% */
+    letter-spacing: 0.02em;
+    margin-bottom: 8px;
+  }
+  .advantages-item-text {
+    color: var(--slate, #434455);
+    font-size: 16px;
+    line-height: 1.5; /* 150% */
+    letter-spacing: 0.02em;
+    font-weight: 400;
+  }
+
+  .advantages {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+
+  .doing {
+    display: block;
+  }
+
+  /**----------------------------TEAM---------------------------*/
+
+  .team .container {
+    width: 100%;
+  }
+
+  .team {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+  .team-list {
+    gap: 24px;
+  }
+
+  .team-item {
+    width: calc((100% - 3 * 24px) / 4);
+  }
+
+  /**----------------------------CUSTOMERS---------------------------*/
+
+  .customers .container {
+    width: 100%;
+  }
+
+  /**----------------------------FOOTER---------------------------*/
+
+  .footer .container {
+    width: 100%;
+    display: flex;
+    padding: 0;
+    align-items: baseline;
+  }
+
+  .footer {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    display: flex;
+    margin: 0;
+  }
+
+  .footer-subscri {
+    width: 453px;
+    margin-left: 80px;
+  }
+
+  .footer-subscri-form {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 24px;
+    width: 453px;
+  }
+
+  .container-social-link {
+    margin-left: 120px;
+  }
+}

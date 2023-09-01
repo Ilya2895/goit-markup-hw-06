@@ -15,10 +15,11 @@
       href="https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css"
     />
     <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/media.css" />
   </head>
   <body>
     <header class="header">
-      <!-- <div class="container header-container">
+      <div class="container header-container">
         <nav class="header-navigation">
           <a href="./index.html" class="header-logo link">
             Web<span class="header-logo-web link">Studio</span></a
@@ -41,34 +42,117 @@
           </ul>
         </nav>
 
-        <address class="header-address">
-          <ul class="header-address-list list">
-            <li class="header-address-item">
-              <a
-                class="header-address-link link"
-                href="mailto:info@devstudio.com"
-                >info@devstudio.com</a
-              >
-            </li>
-            <li class="header-address-item">
-              <a class="header-address-link link" href="tel:+110001111111"
-                >+11 (000) 111-11-11</a
-              >
-            </li>
-          </ul>
-        </address>
-      </div> -->
+        
+          <address class="header-address">
+            <ul class="header-address-list list">
+              <li class="header-address-item">
+                <a
+                  class="header-address-link link"
+                  href="mailto:info@devstudio.com"
+                  >info@devstudio.com</a
+                >
+              </li>
+              <li class="header-address-item">
+                <a class="header-address-link link" href="tel:+110001111111"
+                  >+11 (000) 111-11-11</a
+                >
+              </li>
+            </ul>
+          </address>
+        
+        <button type="button" class="menu-open-btn" data-menu-open>
+          <svg class="icon-open-menu" width="32" height="22">
+            <use href="./images/icons.svg#icon-charm-menu"></use>
+          </svg>
+        </button>
+      </div>
+      <div class="mob-menu is-hidden" data-menu>
+        <div header-mob-position-1>
+          <button type="button" class="mob-menu-close-btn" data-menu-close>
+            <svg class="mob-icon" width="8" height="8">
+              <use href="./images/icons.svg#icon-close-black"></use>
+            </svg >
+          </button>
+          <ul class="mob-menu-list list">
+              <li class="mob-menu-item">
+                <a class="mob-menu-link link " href="./index.html"
+                  >Studio</a
+                >
+              </li>
+              <li class="mob-menu-item">
+                <a class="mob-menu-link link" href="./portfolio.html"
+                  >Portfolio</a
+                >
+              </li>
+              <li class="mob-menu-item">
+                <a class="mob-menu-link link" href="">Contacts</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <div header-mob-position-2>
+  
+          <address class="mob-address">
+            <ul class="mob-address-list list">
+              <li class="mob-address-item">
+                <a class="mob-address-tell link" href="tel:+110001111111"
+                  >+11 (000) 111-11-11</a
+                >
+              </li>
+              <li class="mob-address-item">
+                <a
+                  class="mob-address-email link"
+                  href="mailto:info@devstudio.com"
+                  >info@devstudio.com</a
+                >
+              </li>
+              
+            </ul>
+          </address>
+  
+           <ul class="header-mob-social-list list">
+                    <li class="header-mob-social-item">
+                      <a class="header-mob-social-link link" href="">
+                        <svg class="header-mob-social-icon" width="24" height="24">
+                          <use href="./images/icons.svg#icon-instagram"></use>
+                        </svg>
+                      </a>
+                    </li>
+                    <li class="header-mob-social-item">
+                      <a class="header-mob-social-link link" href="">
+                        <svg class="team-social-icon" width="24" height="24">
+                          <use href="./images/icons.svg#icon-twitter"></use>
+                        </svg>
+                      </a>
+                    </li>
+                    <li class="header-mob-social-item">
+                      <a class="header-mob-social-link link" href="">
+                        <svg class="header-mob-social-icon" width="24" height="24">
+                          <use href="./images/icons.svg#icon-facebook"></use>
+                        </svg>
+                      </a>
+                    </li>
+                    <li class="header-mob-social-item">
+                      <a class="header-mob-social-link link" href="">
+                        <svg class="header-mob-social-icon" width="24" height="24">
+                          <use href="./images/icons.svg#icon-linkedin"></use>
+                        </svg>
+                      </a>
+                    </li>
+                  </ul>
+            </div>
+      </div>
     </header>
 
     <main>
-      <!-- <section class="hero">
+      <section class="hero">
         <div class="container-hero container">
           <h1 class="hero-title">Effective Solutions for Your Business</h1>
           <button type="button" class="hero-btn" data-modal-open>
             Order Service
           </button>
         </div>
-      </section> -->
+      </section>
 
       <section class="advantages">
         <div class="container art">
@@ -127,7 +211,7 @@
         </div>
       </section>
 
-      <!-- <section class="doing">
+      <section class="doing">
         <div class="container">
           <h2 class="doing-title">What are we doing</h2>
           <ul class="doing-list list">
@@ -160,14 +244,18 @@
             </li>
           </ul>
         </div>
-      </section> -->
+      </section>
 
-      <!-- <section class="team">
+      <section class="team">
         <div class="container">
           <h2 class="team-title">Our Team</h2>
           <ul class="team-list list">
             <li class="team-item">
               <img
+                srcset="
+                  ./images/team-img-1-1x.jpg 1x,
+                  ./images/team-img-1-2x.jpg 2x
+                "
                 class="team-img"
                 src="./images/team-img-1.jpg"
                 alt="man's photo"
@@ -212,6 +300,10 @@
             </li>
             <li class="team-item">
               <img
+                srcset="
+                  ./images/team-img-2-1x.jpg 1x,
+                  ./images/team-img-2-2x.jpg 2x
+                "
                 class="team-img"
                 src="./images/team-img-2.jpg"
                 alt="man's photo"
@@ -256,6 +348,10 @@
             </li>
             <li class="team-item">
               <img
+                srcset="
+                  ./images/team-img-3-1x.jpg 1x,
+                  ./images/team-img-3-2x.jpg 2x
+                "
                 class="team-img"
                 src="./images/team-img-3.jpg"
                 alt="girl's photo"
@@ -300,6 +396,10 @@
             </li>
             <li class="team-item">
               <img
+                srcset="
+                  ./images/team-img-4-1x.jpg 1x,
+                  ./images/team-img-4-2x.jpg 2x
+                "
                 class="team-img"
                 src="./images/team-img-4.jpg"
                 alt="man's photo"
@@ -345,8 +445,8 @@
             </li>
           </ul>
         </div>
-      </section> -->
-      <!-- <section class="customers">
+      </section>
+      <section class="customers">
         <div class="container">
           <h2 class="customers-title">Customers</h2>
 
@@ -395,10 +495,10 @@
             </li>
           </ul>
         </div>
-      </section> -->
+      </section>
     </main>
 
-    <!-- <footer class="footer">
+    <footer class="footer">
       <div class="container footer-container">
         <div class="footer-container-wrap">
           <a class="fotter-link link" href="./index.html"
@@ -463,7 +563,7 @@
           </form>
         </div>
       </div>
-    </footer> -->
+    </footer>
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
         <button type="button" class="modal-close-btn" data-modal-close>
@@ -549,5 +649,7 @@
       </div>
     </div>
     <script src="./js/modal.js"></script>
+    <script src="/js/menu.js"></script>
+
   </body>
 </html>

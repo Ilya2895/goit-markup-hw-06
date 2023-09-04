@@ -223,9 +223,9 @@ address {
   stroke: #2e2f42;
 }
 
-/* .icon-open-menu :hover {
+.icon-open-menu :hover {
   stroke: var(--ocean, #404bbf);
-} */
+}
 
 .icon-open-menu :focus {
   stroke: var(--ocean, #404bbf);

@@ -190,12 +190,11 @@
   }
 
   .footer-subscri-form {
-    justify-content: left;
+    left: 0;
   }
 
   .footer-input {
     width: 264px;
-    /* height: 40px; */
   }
 
   .footer-subscri-btn {
@@ -335,33 +334,66 @@
 
   /**----------------------------FOOTER---------------------------*/
 
-  .footer .container {
-    width: 100%;
-    display: flex;
-    padding: 0;
-    align-items: baseline;
-  }
-
   .footer {
     padding-top: 100px;
     padding-bottom: 100px;
     display: flex;
-    margin: 0;
+  }
+
+  .footer .container {
+    display: flex;
+    /* padding: 0; */
+    align-items: baseline;
+    width: 100%;
+  }
+
+  .footer-container-wrapt {
+    margin-right: 120px;
+    margin-bottom: 0;
   }
 
   .footer-subscri {
     width: 453px;
     margin-left: 80px;
+    /* margin: 0; */
+  }
+
+  .footer-subscri-title {
+    text-align: left;
+  }
+
+  .footer-label {
+    margin-right: 0;
+  }
+
+  .fotter-caption {
+    margin: 0;
+  }
+
+  .container-social-link {
+    width: 208px;
+    height: 80px;
+    margin-left: 80px;
+    margin-bottom: 0;
   }
 
   .footer-subscri-form {
     display: flex;
     flex-wrap: nowrap;
+
     gap: 24px;
-    width: 453px;
+    width: 264px;
   }
 
   .container-social-link {
-    margin-left: 120px;
+    /* margin: 0; */
+  }
+
+  .footer-label {
+    text-align: left;
+  }
+
+  .footer-input {
+    width: 264px;
   }
 }

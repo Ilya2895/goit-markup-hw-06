@@ -33,19 +33,32 @@
   margin: -1px;
 }
 
-/* .container {
-  max-width: 1158px;
+/* ?Mobile screen */
+.container {
+  width: 320px;
   margin: 0 auto;
-  padding: 0 15px;
+  padding: 0 16px;
+  /* outline: 2px solid red; */
+}
 
-  outline: 2px solid red;
-} */
-
-
-  .section {
-    padding: 96px 0;
+/* ? Tablet screen */
+@media screen and (min-width: 768px) {
+  .container {
+    width: 768px;
   }
+}
 
+/* ? Desktop screen */
+@media screen and (min-width: 1158px) {
+  .container {
+    width: 1158px;
+    padding: 0 15px;
+  }
+}
+
+.section {
+  padding: 96px 0;
+}
 
 @media only screen and (min-width: 1158px) {
   .section {

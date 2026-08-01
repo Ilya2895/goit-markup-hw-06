@@ -70,7 +70,7 @@
 
   .features-item {
     width: calc((100% - 72px) / 4);
-    max-width: 264px;
+    max-width: none;
   }
 
   .features-item-box {

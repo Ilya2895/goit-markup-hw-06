@@ -1,25 +1,3 @@
-/* font-family: "Raleway", sans-serif; */
-/* font-family: "Roboto", sans-serif; */
-/* :root {
-  --iris: #4d5ae5;
-  --ocean: #404bbf;
-  --navy-blue: #2e2f42;
-  --green: #31d0aa;
-  --slate: #434455;
-  --light-slate: #8e8f99;
-  --cornflower: #e7e9fc;
-  --cloud: #f4f4fd;
-  --navy-blue-modal: rgba(46, 47, 66, 0.4);
-  --grey: rgba(46, 47, 66, 0.7);
-  --white: #fff;
-  --dairy: #fcfcfc;
-}
-
-:root {
-  --font-family: 'Roboto', sans-serif;
-  --second-family: 'Raleway', sans-serif;
-} */
-
 .sr-only {
   position: absolute;
   white-space: nowrap;
@@ -35,7 +13,8 @@
 
 /* ?Mobile screen */
 .container {
-  width: 320px;
+  width: 100%;
+  max-width: 320px;
   margin: 0 auto;
   padding: 0 16px;
   /* outline: 2px solid red; */
@@ -44,14 +23,14 @@
 /* ? Tablet screen */
 @media screen and (min-width: 768px) {
   .container {
-    width: 768px;
+    max-width: 768px;
   }
 }
 
 /* ? Desktop screen */
 @media screen and (min-width: 1158px) {
   .container {
-    width: 1158px;
+    max-width: 1158px;
     padding: 0 15px;
   }
 }
